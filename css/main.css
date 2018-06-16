@@ -1815,7 +1815,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * about 
+ * about
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
   #about {
@@ -2551,9 +2551,26 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     margin-top: 3.6rem;
   }
 }
+.tr {
+  font-family: "librebaskerville-bold", serif;
+  font-size: 2rem;
+  line-height: 1;
+  color: #2e383f;
+  margin-top: 6rem;
+}
 @media only screen and (max-width: 600px) {
   .faq-content {
     max-width: 480px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .faq-info {
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
   }
 }
 
@@ -3026,7 +3043,8 @@ footer h4.h05::after {
   .footer-main [class*="col-"] {
     margin-bottom: 3.6rem;
   }
-
+  
+ 
   footer h4.h05 {
     padding-bottom: 3rem;
     margin-bottom: 3rem;
@@ -3041,6 +3059,7 @@ footer h4.h05::after {
   .footer-bottom {
     padding-bottom: .6rem;
   }
+  
   .footer-bottom .copyright span {
     display: block;
   }
